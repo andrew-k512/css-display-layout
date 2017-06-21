@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: arial, sans-serif;
+  width: 100%;
 }
 
 div#header h1 {
@@ -19,9 +20,10 @@ h1.banner {
 
 }
 ul.navbar {
-  margin: 1px 38% 1px 38%;
+  margin: 1px 0 1px 0;
   font-weight: 900;
   font-size: 20px;
+  text-align: center;
 
 }
 li.navbutton {
@@ -45,4 +47,13 @@ a.photo-link {
 }
 div.photo-header {
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+main {
+  width: 100%;
+  margin: 5px auto;
+  text-align: center;
+}
+img.gallery {
+  margin: 0 2px 0 2px;
 }
