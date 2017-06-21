@@ -30,3 +30,19 @@ li.navbutton {
   padding: 10px 5px;
   display: inline-block;
 }
+h3.photo {
+  display: block;
+  background-color: lightblue;
+  margin: 5px 30px 5px 30px;
+  padding-left: 30px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+  font-size: 30px;
+}
+a.photo-link {
+  color: black;
+  decoration;
+}
+div.photo-header {
+  margin-top: 20px;
+}
