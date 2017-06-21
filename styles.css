@@ -1,0 +1,17 @@
+div#header h1 {
+  position: absolute;
+  top: 0;
+  margin-top: 0;
+}
+h1.banner {
+  text-align: center;
+  background-color: #333333;
+  color: white;
+  font-weight: 900;
+  font-size: 40px;
+  padding: 20px 0;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  font-family: arial, sans-serif;
+}
