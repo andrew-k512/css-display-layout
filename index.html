@@ -7,40 +7,83 @@
     <meta name="description" content="Practicing Layout with Block, Inline, and Inline Block">
   </head>
   <body>
-
-     <div id="header">
-      <h1 class="banner">Bitmaker Photo Gallery
-      </h1>
+     <header>
+      <h1 class="banner">Bitmaker Photo Gallery</h1>
+    </header>
       <nav>
         <ul class="navbar">
-          <li class="navbutton">Home</li>
-          <li class="navbutton">Add a photo</li>
-          <li class="navbutton">About</li>
+          <li class="navbutton"><a class="navlink" href="#">Home</a></li>
+          <li class="navbutton"><a class="navlink" href="#">Add a photo</a></li>
+          <li class="navbutton"><a class="navlink" href="#">About</a></li>
         </ul>
       </nav>
-    </div>
-
-    <div class="photo-header">
-      <h3 class="photo">There are <a class="photo-link" href="http://www.bing.com">6</a> photos</h3>
-    </div>
+    </header>
     <main>
-      <img class="gallery" src="https://unsplash.it/400/450?random=333">
-      <img class="gallery" src="https://unsplash.it/400/450?random=444">
-      <img class="gallery" src="https://unsplash.it/400/450?random=555">
 
+      <div class="six-photos">
+        <h3 class="photo">There are <h3 class="emphasis">6</h3><h3 class="photo">photos</h3>
+      </div>
 
-      <img class="gallery" src="https://unsplash.it/400/450?random=666">
-      <img class="gallery"src="https://unsplash.it/400/450?random=777">
-      <img class="gallery" src="https://unsplash.it/400/450?random=888">
+      <!-- Below constitues the gallery, all six image segments with edit/delete links -->
+        <div class="gallery">
+          <div class="image"><img class="gallery" src="https://unsplash.it/400/450?random=111">
+          </div>
+          <div class="text-bar">
+            <a href="#">Edit</a> |
+            <a href="#">Delete</a>
+          </div>
+       </div>
 
+       <div class="gallery">
+         <div class="image"><img class="gallery" src="https://unsplash.it/400/450?random=222">
+         </div>
+         <div class="text-bar">
+           <a href="#">Edit</a> |
+           <a href="#">Delete</a>
+         </div>
+      </div>
 
+      <div class="gallery">
+        <div class="image"><img class="gallery" src="https://unsplash.it/400/450?random=333">
+        </div>
+        <div class="text-bar">
+          <a href="#">Edit</a> |
+          <a href="#">Delete</a>
+        </div>
+     </div>
 
+     <div class="gallery">
+       <div class="image"><img class="gallery" src="https://unsplash.it/400/450?random=444">
+       </div>
+       <div class="text-bar">
+         <a href="#">Edit</a> |
+         <a href="#">Delete</a>
+       </div>
+    </div>
 
-    </main>
+    <div class="gallery">
+      <div class="image"><img class="gallery" src="https://unsplash.it/400/450?random=555">
+      </div>
+      <div class="text-bar">
+        <a href="#">Edit</a> |
+        <a href="#">Delete</a>
+      </div>
+   </div>
 
-    <footer>
+   <div class="gallery">
+     <div class="image"><img class="gallery" src="https://unsplash.it/400/450?random=666">
+     </div>
+     <div class="text-bar">
+       <a href="#">Edit</a> |
+       <a href="#">Delete</a>
+     </div>
+  </div>
 
-    </footer>
+</main>
+
+<footer>
+
+</footer>
 
 
 
