@@ -5,6 +5,25 @@ body {
   font-family: arial, sans-serif;
   width: 100%;
 }
+* {
+  box-sizing: border-box;
+}
+p.footer {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  padding: 20px 0;
+}
+footer {
+  background-color: black;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  clear: both;
+
+}
+
 
 /*---------------Top banner--------------------------------------
 ---------------------------------------------------------------*/
@@ -54,32 +73,50 @@ main {
   text-align: center;
 }
 div.six-photos {
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
   display: block;
   width: 100%;
   background-color: lightblue;
+  text-align: left;
 }
 h3.photo {
+  padding: 0;
   margin: 0;
   padding-left: 30px;
   padding-bottom: 18px;
   padding-top: 18px;
   font-size: 30px;
-  display: inline;
+  display: inline-block;
+  text-align: left;
 
 }
 h3.emphasis {
-  font-size: ;
-  margin: 0;
-  display: inline;
+  font-size: 30px;
+  margin: 4px 5px;
+  padding: 0;
+  display: inline-block;
   border-bottom: 3px solid yellow;
 
 }
 
 /*--- The following section is arrange layout of gallery -------------------
 ------------------------------------------------------------------------*/
+div.center-gallery {
+  margin-left: 75px;
+  margin-right: 75px;
+}
 div.gallery {
   float: left;
   margin-bottom: 35px;
+  /*margin-left: 20px; */
+  margin-right: 25px;
+
+}
+div.text-bar {
+  background-color: yellow;
+  padding: 15px 15px;
+  font-size: 20px;
 }
